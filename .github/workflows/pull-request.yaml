@@ -13,4 +13,4 @@ jobs:
         run: |
           gh pr create -B develop -H main -t "Main backMerge" -b "sync main down to develop"
         env:
-         GITHUB_TOKEN: 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
+         GITHUB_TOKEN: "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"
