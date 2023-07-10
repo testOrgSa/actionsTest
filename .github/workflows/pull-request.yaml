@@ -15,3 +15,5 @@ jobs:
         run: |
           gh_pr_up() { gh pr create $* || gh pr edit $* }
           gh_pr_up --title "My pull request" --body "Description"
+        env:
+         GITHUB_TOKEN: "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"
